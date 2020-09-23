@@ -17,6 +17,7 @@ export interface CNRichTextEditorProps {
   onBlur?: () => void;
   placeholder: string;
   textInputStyle?: StyleProp<TextStyle>;
+  placeholderTextColor?: string;
 }
 
 export default class CNRichTextEditor extends Component<CNRichTextEditorProps> {
